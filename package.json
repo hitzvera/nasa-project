@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/hitzvera/nasa-project#readme",
   "dependencies": {
+    "axios": "^1.2.2",
+    "mongoose": "^6.7.2",
     "morgan": "^1.10.0"
   }
 }

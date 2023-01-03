@@ -12,9 +12,10 @@ const History = props => {
             }>█</span>
           </td>
           <td>{launch.flightNumber}</td>
-          <td>{new Date(launch.launchDate).toDateString()}</td>
+          {/* <td>{new Date(launch.launchDate).toDateString()}</td> */}
+          <td>{new Date(launch.launchDate).toString()}</td>
           <td>{launch.mission}</td>
-          <td>{launch.rocket}</td>
+          <td>{launch.rocket.name}</td>
           <td>{launch.customers?.join(", ")}</td>
         </tr>;
       });
